@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 {
-    'name' : 'QWEB Tutorial',
+    'name' : 'Owl Tutorial',
     'version' : '17.0',
-    'summary': 'QWEB Tutorial',
+    'summary': 'Owl Tutorial',
     'sequence': -1,
-    'description': """QWEB Tutorial""",
+    'description': """Owl Tutorial""",
     'category': 'Website',
     'depends' : ['web', 'website'],
     'data': [
@@ -14,7 +14,7 @@
     'application': True,
     'assets': {
         'web.assets_frontend': [
-            'qweb_tutorial/static/src/*',
+            'qweb_tutorial/static/src/components/**/*',
         ],
     },
 }
